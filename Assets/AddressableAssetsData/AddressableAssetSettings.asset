@@ -62,7 +62,13 @@ MonoBehaviour:
   m_BuildAddressablesWithPlayerBuild: 0
   m_overridePlayerVersion: '[UnityEditor.PlayerSettings.bundleVersion]'
   m_GroupAssets:
+  - {fileID: 11400000, guid: b3db2c1d3c7293043b318606f9a9957b, type: 2}
+  - {fileID: 11400000, guid: 8cb854f7efd29684c8d585ebd2624c6c, type: 2}
+  - {fileID: 11400000, guid: 2fb2b2be341a786419c452d43f20054f, type: 2}
+  - {fileID: 11400000, guid: ad1c8ecce7c9e27439b41a7060a4bedf, type: 2}
+  - {fileID: 11400000, guid: deb0d79057fe30047bd731a408819a5f, type: 2}
   - {fileID: 11400000, guid: 74453775a15955f4bad265e6966067a2, type: 2}
+  - {fileID: 11400000, guid: 4cb77c6c9d64a854a812bfbb35bd64c5, type: 2}
   m_BuildSettings:
     m_LogResourceManagerExceptions: 1
     m_BundleBuildPath: Temp/com.unity.addressables/AssetBundles
@@ -82,6 +88,20 @@ MonoBehaviour:
         m_Value: 'ServerData/[BuildTarget]'
       - m_Id: cba0b3a3dd41bb8419f44a5148e5a7b5
         m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+    - m_InheritedParent: 
+      m_Id: 372c7bf9854eeb14bb15ac006ca71e2f
+      m_ProfileName: MechJeb
+      m_Values:
+      - m_Id: 1b2aca76682f65042bf29eb2217c7492
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 4ae0cea4b06e6134aaffeef0e9ec8095
+        m_Value: '{SpaceWarpPaths.MechJeb}/addressables/StandaloneWindows64'
+      - m_Id: a40b22c9bfa84b644b4e6303203bdc40
+        m_Value: <undefined>
+      - m_Id: c772a76f64e3c404f815f81ea7212de1
+        m_Value: 'ServerData/[BuildTarget]'
+      - m_Id: cba0b3a3dd41bb8419f44a5148e5a7b5
+        m_Value: Library/com.unity.addressables/aa/Windows/StandaloneWindows64
     m_ProfileEntryNames:
     - m_Id: 1b2aca76682f65042bf29eb2217c7492
       m_Name: BuildTarget
@@ -102,6 +122,11 @@ MonoBehaviour:
   m_LabelTable:
     m_LabelNames:
     - default
+    - parts_data
+    - celestial_bodies
+    - scienceExperiment
+    - missions
+    - techNodeData
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 4676cb50dd890ac4bbbaf6b7662cd451, type: 2}
@@ -114,4 +139,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a29fcadb627f57a4082a815f62c5a5fc, type: 2}
   - {fileID: 11400000, guid: fa7d5ded347f49b4bad7973e3bd017b9, type: 2}
   - {fileID: 11400000, guid: a94fca6bf38bb5047acf7c661dd3d35e, type: 2}
-  m_ActiveProfileId: 1bae16e9d3c8fc34da89f9a01915c3b3
+  m_ActiveProfileId: 372c7bf9854eeb14bb15ac006ca71e2f

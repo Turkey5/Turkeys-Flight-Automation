@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9065a46703c44e8fabd263388eaeb6e7, type: 3}
+  m_Name: swinfo
+  m_EditorClassIdentifier: ksp2community.ksp2unitytools.editor::Ksp2UnityTools.Editor.Modding.Mod
+  id: MechJeb
+  name: MechJeb
+  author: Turkey
+  description: 'A utility mod
+
+'
+  version: 0.0.1
+  versionCheck: 
+  minKsp2Version: '*'
+  maxKsp2Version: '*'
+  source: https://github.com/Turkey5/MechjebRedux
+  allGroup: {fileID: 11400000, guid: 8cb854f7efd29684c8d585ebd2624c6c, type: 2}
+  partsGroup: {fileID: 11400000, guid: b3db2c1d3c7293043b318606f9a9957b, type: 2}
+  missionsGroup: {fileID: 11400000, guid: 2fb2b2be341a786419c452d43f20054f, type: 2}
+  celestialBodiesGroup: {fileID: 11400000, guid: ad1c8ecce7c9e27439b41a7060a4bedf, type: 2}
+  scienceExperimentGroup: {fileID: 11400000, guid: deb0d79057fe30047bd731a408819a5f, type: 2}
+  techNodeDataGroup: {fileID: 11400000, guid: 4cb77c6c9d64a854a812bfbb35bd64c5, type: 2}
+  addressablesProfileId: 372c7bf9854eeb14bb15ac006ca71e2f
+  dependencies:
+  - id: SpaceWarp2
+    min: 2.0.0
+    max: '*'
+  incompatibilities: []
